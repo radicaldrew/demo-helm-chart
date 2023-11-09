@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   hello-world:
   - apiVersion: v2
+    appVersion: 1.17.2
+    created: "2023-11-09T09:18:46.666424625Z"
+    description: A Helm chart for Kubernetes
+    digest: 3e99755f4cf247e28c247c24b250379ac0733491f9ef835b2d371624621322b6
+    name: hello-world
+    type: application
+    urls:
+    - https://github.com/radicaldrew/demo-helm-chart/releases/download/hello-world-0.1.3/hello-world-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
     appVersion: 1.17.1
     created: "2023-11-09T08:54:13.961166576Z"
     description: A Helm chart for Kubernetes
@@ -21,4 +31,4 @@ entries:
     urls:
     - https://github.com/radicaldrew/demo-helm-chart/releases/download/hello-world-0.1.1/hello-world-0.1.1.tgz
     version: 0.1.1
-generated: "2023-11-09T08:54:13.961181476Z"
+generated: "2023-11-09T09:18:46.666441366Z"
